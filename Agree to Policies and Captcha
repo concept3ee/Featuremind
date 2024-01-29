@@ -1,0 +1,14 @@
+est Case #14
+Test Case Name: Agree to Policies and Captcha
+
+Description: Validates the system's response when all policy agreements are checked, and correct captcha input is provided.
+
+Input:
+
+[Valid data]
+Captcha: [Correct Captcha]
+Policies: All agreements checked
+Expected Result:
+
+User is successfully registered.
+User is redirected to the dashboard.
