@@ -1,22 +1,22 @@
-Test Case 1: Positive User registration
+Positive Test Cases:
+Test Case #1
+Test Case Name: Valid Registration
 
-Test Case Title: User Registration 
+Description: Verifies that a user can successfully register with valid data.
 
-Test Case ID: User reg 0.1
+Input:
+Title: MR
+First Name: james
+Last Name: fuller
+Date of Birth: 01/15/1999
+Email: john.doe@example.com
+Confirm Email: james.fuller@example.com
+Phone Number: 1234567890
+Password: Abcd@123
+Confirm Password: Abcd@123
+Captcha: [Correct Captcha]
+Policies: All agreements checked
+Expected Result:
 
-Valid Registration:
-Input: Valid data for all fields.
-Expected Output: Successful registration a
-
-Minimum Length Password:
-
-Input: Minimum valid data for all fields, including a password with exactly 8 characters containing at least one uppercase letter, one lowercase letter, one number, and one special character.
-Expected Output: Successful registration a
-
-Boundary Test Case: Maximum Length Fields:
-Input: Maximum allowed characters for each field.
-Expected Output: Successful registration and user redirected to the dashboard.
-
-Unique Email:
-Input: Valid data with an email that is not already registered.
-Expected Output: Successful registration and user redirected to the dashboard.
+User is successfully registered.
+User is redirected to the dashboard.
