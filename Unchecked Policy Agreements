@@ -1,0 +1,12 @@
+Test Case #13
+Test Case Name: Unchecked Policy Agreements
+
+Description: Verifies that the system prompts an error message when any of the policy agreements are unchecked.
+
+Input:
+
+[Valid data]
+[Unchecked any of the policy agreements]
+Expected Result:
+
+Display an error message indicating that all policy agreements must be accepted
