@@ -1,0 +1,25 @@
+Negative Test Cases:
+
+Invalid Email Format:
+Input: Invalid email format (e.g., missing '@' or '.' in the email).
+Expected Output: Display an error message indicating an invalid email format.
+
+Mismatched Email and Confirm Email:
+Input: Valid data but with a email and confirm email that do not match.
+Expected Output: Display an error message indicating email mismatch.
+
+Mismatched Password and Confirm Password:
+Input: Valid data but with a password and confirm password that do not match.
+Expected Output: Display an error message indicating password mismatch.
+
+Password Missing Requirements:
+Input: Valid data with a password that does not meet the criteria (e.g., missing uppercase letter, special characters or numbers).
+Expected Output: Display an error message indicating password requirements not met.
+
+Empty Required Fields:
+Input: Leaving any of the required fields (e.g., First Name, Last Name, Email) empty.
+Expected Output: Display error messages for the respective empty fields.
+
+Existing Email:
+Input: Registering with an email that is already registered in the system.
+Expected Output: Display an error message indicating that the email is already in use.
