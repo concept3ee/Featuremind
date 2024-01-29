@@ -1,0 +1,13 @@
+est Case #16
+Test Case Name: Invalid Captcha
+
+Description: Checks the system's response to an incorrect captcha input.
+
+Input:
+
+[Valid data]
+Captcha: [Incorrect Captcha]
+Policies: All agreements checked
+Expected Result:
+
+Display an error message indicating that the captcha input is incorrect.
