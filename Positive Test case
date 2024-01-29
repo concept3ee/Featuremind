@@ -2,7 +2,7 @@ Test Case 1: Positive User registration
 
 Test Case Title: User Registration 
 
-Test Case ID: FT-0.1
+Test Case ID: User reg 0.1
 
 Valid Registration:
 Input: Valid data for all fields.
