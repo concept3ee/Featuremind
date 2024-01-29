@@ -1,0 +1,21 @@
+Test Case #3
+Test Case Name: Boundary Test Case - Maximum Length Fields
+
+Description: Checks the system's behavior when provided with maximum allowed characters in each field.
+
+Input:
+Title: Mr
+First Name: [Max characters]
+Last Name: [Max characters]
+Date of Birth: [Max characters]
+Email: [Max characters]
+Confirm Email: [Max characters]
+Phone Number: [Max characters]
+Password: [Max characters]
+Confirm Password: [Max characters]
+Captcha: [Correct Captcha]
+Policies: All agreements checked
+Expected Result:
+
+User is successfully registered.
+User is redirected to the dashboard.
