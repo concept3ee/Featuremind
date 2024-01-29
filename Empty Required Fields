@@ -1,0 +1,11 @@
+Test Case #8
+Test Case Name: Empty Required Fields
+
+Description: Checks the system's response to leaving required fields empty.
+
+Input:
+
+[Leaving any of the required fields empty]
+Expected Result:
+
+Display error messages for the respective empty fields.
