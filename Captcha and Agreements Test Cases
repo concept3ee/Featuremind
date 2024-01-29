@@ -1,25 +1,15 @@
-Test Case 4: Captcha and Agreements Test Cases
+Captcha and Agreements Test Cases:
+Test Case #12
+Test Case Name: Captcha Verification
 
-Test Case Title: Captcha and Agreements Test Cases
+Description: Validates that the system accepts valid data along with the correct captcha input.
 
-Test Case ID: User Reg 04
+Input:
 
-Captcha Verification:
-Input: Valid data along with correct captcha input.
-Expected Output: Successful registration and user redirected to the dashboard.
+[Valid data]
+Captcha: [Correct Captcha]
+Policies: All agreements checked
+Expected Result:
 
-Unchecked Policy Agreements:
-Input: Valid data with any of the policy agreements unchecked.
-Expected Output: Display an error message indicating that all policy agreements must be accepted.
-
-Agree to Policies and Captcha:
-Input: Valid data with all policy agreements checked and correct captcha input.
-Expected Output: Successful registration and user redirected to the dashboard.
-
-Submit Without Agreeing to Policies:
-Input: Valid data with all policy agreements unchecked.
-Expected Output: Display an error message indicating that all policy agreements must be accepted.
-
-Invalid Captcha:
-Input: Valid data with an incorrect captcha input.
-Expected Output: Display an error message indicating that the captcha input is incorrect.
+User is successfully registered.
+User is redirected to the dashboard.
