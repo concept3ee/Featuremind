@@ -1,0 +1,12 @@
+Test Case #9
+Test Case Name: Existing Email
+
+Description: Validates the system's response when registering with an email that is already in use.
+
+Input:
+
+[Existing email in the system]
+[Other valid data]
+Expected Result:
+
+Display an error message indicating that the email is already in use.
