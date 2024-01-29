@@ -1,0 +1,22 @@
+Test Case 1: Positive User registration
+
+Test Case Title: User Registration 
+
+Test Case ID: FT-0.1
+
+Valid Registration:
+Input: Valid data for all fields.
+Expected Output: Successful registration a
+
+Minimum Length Password:
+
+Input: Minimum valid data for all fields, including a password with exactly 8 characters containing at least one uppercase letter, one lowercase letter, one number, and one special character.
+Expected Output: Successful registration a
+
+Boundary Test Case: Maximum Length Fields:
+Input: Maximum allowed characters for each field.
+Expected Output: Successful registration and user redirected to the dashboard.
+
+Unique Email:
+Input: Valid data with an email that is not already registered.
+Expected Output: Successful registration and user redirected to the dashboard.
