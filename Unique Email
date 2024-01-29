@@ -1,0 +1,21 @@
+Test Case #4
+Test Case Name: Unique Email
+
+Description: Ensures that the registration system recognizes and accepts a unique email.
+
+Input:
+Title : mr
+First Name: Bob
+Last Name: Johnson
+Date of Birth: 09/10/1978
+Email: bob.johnson@example.com
+Confirm Email: bob.johnson@example.com
+Phone Number: 5556667777
+Password: Password@123
+Confirm Password: Password@123
+Captcha: [Correct Captcha]
+Policies: All agreements checked
+Expected Result:
+
+User is successfully registered.
+User is redirected to the dashboard.
