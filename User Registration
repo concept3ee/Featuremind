@@ -1,0 +1,27 @@
+Test Case 1: User Registration
+
+Test Case Title: User Registration
+
+Test Case ID: FT-01
+
+Description: Verify that users can successfully register for an account
+
+Test Steps
+Select Title 
+Enter First Name
+Enter Last Name
+Enter Date of birth
+Select country
+Enter email address
+Confirm email address
+Enter phone number
+Enter password
+Confirm password
+Validate captcha
+Tick consent to promotional activities
+Tick consent to profiling activities
+Tick consent to privacy policy
+Click Create Customer Account 
+
+Expected Results:
+The user should be able to complete the registration without any errors.
