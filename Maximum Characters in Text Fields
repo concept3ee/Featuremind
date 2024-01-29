@@ -1,0 +1,12 @@
+Test Case #11
+Test Case Name: Maximum Characters in Text Fields
+
+Description: Checks the system's behavior with input fields filled with the maximum allowed characters.
+
+Input:
+
+[Max characters for all fields]
+Expected Result:
+
+User is successfully registered.
+User is redirected to the dashboard.
