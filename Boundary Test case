@@ -1,0 +1,15 @@
+Test Case 1: Boundary Test case
+
+Test Case Title: Boundary test
+
+Test Case ID: User reg 3
+
+Boundary Test Cases:
+
+Minimum and Maximum Password Length:
+Input: Password with the minimum and maximum allowed lengths.
+Expected Output: Successful registration in both cases.
+
+Maximum Characters in Text Fields:
+Input: Input fields filled with the maximum allowed characters.
+Expected Output: Successful registration 
