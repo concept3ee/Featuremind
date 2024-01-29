@@ -1,0 +1,12 @@
+Test Case #15
+Test Case Name: Submit Without Agreeing to Policies
+
+Description: Verifies that the system prompts an error message when attempting to register without agreeing to all policy agreements.
+
+Input:
+
+[Valid data]
+[Unchecked any of the policy agreements]
+Expected Result:
+
+Display an error message indicating that all policy agreements must be accepted.
